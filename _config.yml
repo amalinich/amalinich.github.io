@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            All things coder.
 locale:           en_US
 url:              
 
@@ -26,9 +26,9 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
+  name: Aram Malinich
+  avatar: ramnik_square.png
+  bio: "full stack web developer"
   email: 
   disqus-shortname: 
   twitter: #username
