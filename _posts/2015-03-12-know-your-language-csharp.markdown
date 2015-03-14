@@ -13,12 +13,12 @@ I won't be covering the basic stuff you see in most languages, also there are so
 ## Features Overview
 
 * 2.0
-  * Generics
-  * Anonymous Methods
-  * Nullable Types
+  * [Generics](https://msdn.microsoft.com/en-us/library/512aeb7t.aspx)
+  * [Anonymous Methods](https://msdn.microsoft.com/en-us/library/0yw3tz5k.aspx)
+  * [Nullable Types](https://msdn.microsoft.com/en-us/library/1t3y8s4s.aspx)
 * 3.0
-  * Lambda Expressions
-  * Extension Methods
+  * [Lambda Expressions](https://msdn.microsoft.com/en-us/library/bb397687.aspx)
+  * [Extension Methods](https://msdn.microsoft.com/en-us/library/bb383977.aspx)
   * Expression Trees
   * Anonymous Types
   * LINQ
@@ -140,5 +140,12 @@ int? myNullableInteger = null;
 Nullable<int> myNullableInteger = null;
 {% endhighlight %}
 
-Remember to check out the code...
+## Learn More
+
+For more in depth coverage of these topics, check out my code sample...
+
 [https://github.com/amalinich/csharpfeatures](https://github.com/amalinich/csharpfeatures)
+
+Also, I've linked to the MSDN documentation in the topics listing above.
+
+-Aram
