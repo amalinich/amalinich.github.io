@@ -6,14 +6,12 @@ categories: csharp
 ---
 In this series, I'll be covering some of the features introduced into the C# / CSharp language over time.
 
-For most of my career, I've worked with C# and .NET.  The past year and a half I've stepped away, focusing on projects involving mostly JavaScript and Ruby on Rails.  This coming Monday I'll be starting a new job and stepping back into that world.  This presents the perfect opportunity to reacquaint myself with the language, as well as strengthen some places I may have been weak in.
-
 I won't be covering the basic stuff you see in most languages, also there are some things that are helpful additions but pretty basic so coverage of them may be brief.
 
 ## Features Overview
 
 * 2.0
-  * [Generics](https://msdn.microsoft.com/en-us/library/512aeb7t.aspx)
+  * [Generics](https://msdn.microsoft.com/en-us/library/512aeb7t.aspx){target: "_blank"}
   * [Anonymous Methods](https://msdn.microsoft.com/en-us/library/0yw3tz5k.aspx)
   * [Nullable Types](https://msdn.microsoft.com/en-us/library/1t3y8s4s.aspx)
 * 3.0
