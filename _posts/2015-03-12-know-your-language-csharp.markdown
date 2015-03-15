@@ -11,7 +11,7 @@ I won't be covering the basic stuff you see in most languages, also there are so
 ## Features Overview
 
 * 2.0
-  * [Generics](https://msdn.microsoft.com/en-us/library/512aeb7t.aspx){target: "_blank"}
+  * [Generics](https://msdn.microsoft.com/en-us/library/512aeb7t.aspx)
   * [Anonymous Methods](https://msdn.microsoft.com/en-us/library/0yw3tz5k.aspx)
   * [Nullable Types](https://msdn.microsoft.com/en-us/library/1t3y8s4s.aspx)
 * 3.0
