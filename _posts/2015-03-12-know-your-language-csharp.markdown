@@ -15,16 +15,16 @@ I won't be covering the basic stuff you see in most languages, also there are so
   * [Anonymous Methods](https://msdn.microsoft.com/en-us/library/0yw3tz5k.aspx)
   * [Nullable Types](https://msdn.microsoft.com/en-us/library/1t3y8s4s.aspx)
 * 3.0
-  * [Lambda Expressions](https://msdn.microsoft.com/en-us/library/bb397687.aspx)
+  * [Anonymous Types](https://msdn.microsoft.com/en-us/library/bb397696.aspx) 
+  * [Implicit Typing](https://msdn.microsoft.com/en-us/library/bb384061.aspx)
   * [Extension Methods](https://msdn.microsoft.com/en-us/library/bb383977.aspx)
-  * Expression Trees
-  * Anonymous Types
-  * LINQ
-  * Implicit Typing
+  * [Lambda Expressions](https://msdn.microsoft.com/en-us/library/bb397687.aspx)
+  * [LINQ](https://msdn.microsoft.com/en-us/library/bb397926.aspx)
+  * [Expression Trees](https://msdn.microsoft.com/en-us/library/bb397951.aspx)
 * 4.0
-  * Late Binding (dynamic)
   * Named Arguments
   * Optional Parameters
+  * Late Binding (dynamic)
 * 5.0
   * Async features
   * Caller Information
