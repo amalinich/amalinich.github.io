@@ -4,7 +4,7 @@ title:  "Know your language: C# / CSharp (3.0 Edition)"
 date:   2015-03-16 08:00:00
 categories: csharp
 ---
-In this series, I'll be covering some of the features introduced into the C# / CSharp language over time.
+In this post, I'll be continuing my coverage of C# / CSharp language features with version 3.0.
 
 I won't be covering the basic stuff you see in most languages, also there are some things that are helpful additions but pretty basic so coverage of them may be brief.
 
