@@ -15,8 +15,8 @@ I won't be covering the basic stuff you see in most languages, also there are so
   * [Anonymous Methods](https://msdn.microsoft.com/en-us/library/0yw3tz5k.aspx)
   * [Nullable Types](https://msdn.microsoft.com/en-us/library/1t3y8s4s.aspx)
 * 3.0
-  * [Anonymous Types](https://msdn.microsoft.com/en-us/library/bb397696.aspx) 
   * [Implicit Typing](https://msdn.microsoft.com/en-us/library/bb384061.aspx)
+  * [Anonymous Types](https://msdn.microsoft.com/en-us/library/bb397696.aspx) 
   * [Extension Methods](https://msdn.microsoft.com/en-us/library/bb383977.aspx)
   * [Lambda Expressions](https://msdn.microsoft.com/en-us/library/bb397687.aspx)
   * [LINQ](https://msdn.microsoft.com/en-us/library/bb397926.aspx)
@@ -39,6 +39,18 @@ Each of the feature folders will have a Driver.cs which has a suite of NUnit tes
 
 ## 3.0 Features
 
+### Implicit Typing
+
+Implicit Typing lets the compiler and intellisense infer type during assignment by looking at the return type...
+
+{% highlight csharp %}
+var myString = "Hello World!"; //Implicitly a 'string'
+var stringParts = myString.Split(' '); //Implicitly a 'string array'
+Console.WriteLine(stringParts.Length);
+{% endhighlight %}
+
+Everything is still strongly typed, it is simply inferred by the right side of the assignment call.
+
 ### Anonymous Types
 
 Anonymous types are simple and really great when you want to create objects for short term use, without going through the overhead of defining long standing classes in code.
@@ -48,9 +60,7 @@ var myData = new { Name = "John Doe" };
 Console.WriteLine(myData.Name);
 {% endhighlight %}
 
-This also has a specific use in LINQ, but you'll get more in that later.
-
-### Implicit Typing
+This also has a specific use in LINQ, but we'll get more in that later.
 
 ### Extension Methods
 
