@@ -64,6 +64,24 @@ This also has a specific use in LINQ, but we'll get more in that later.
 
 ### Extension Methods
 
+Extension Methods allow you to add instance methods to types without it having to be defined in the class.  This is extremely useful for classes which you don't control...
+
+{% highlight csharp %}
+// The key to making this work is static access to both the class and function
+// as well as the 'this' keyword on the input object
+public static class MyStringExtensions
+{
+    public static string Yell(this string phrase)
+    {
+        return phrase.ToUpper() + "!!!";
+    }
+}
+
+...
+
+var yellingTheNewWay = helloWorld.Yell();
+{% endhighlight %}
+
 ### Lambda Expressions
 
 ### LINQ
