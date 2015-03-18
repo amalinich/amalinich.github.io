@@ -84,6 +84,53 @@ var yellingTheNewWay = helloWorld.Yell();
 
 ### Lambda Expressions
 
+Lambda Expressions are the preferred way to write delegates now as they are much more concise.  Take this example from my previous post...
+
+#### Anonymous Method Example
+
+{% highlight csharp %}
+public class SomeClass
+{
+    // We still need a method signature at this time...
+    private delegate string MyDelegate(int i);
+
+    public void Run()
+    {
+        //Here we define the method inline, so long as it matches the appropriate signature
+        this.MethodThatTakesADelegate(delegate(int i) { return i.ToString(); });
+    }
+
+    private void MethodThatTakesADelegate(MyDelegate someFunction)
+    {
+        //Here we can actually call the passed function.
+        string result = someFunction(10);
+        Console.WriteLine(result);
+    }
+}
+{% endhighlight %}
+
+This can be rewritten as such...
+
+#### Lambda Example
+
+{% highlight csharp %}
+public class SomeClass
+{
+    public void Run()
+    {
+        // note the lack of brackets, no return keyword, and no terminating semicolon after ToString()
+        this.MethodThatTakesADelegate(i => i.ToString());
+    }
+
+    private void MethodThatTakesADelegate(Func<int, string> someFunction)
+    {
+        //Here we can actually call the passed function.
+        string result = someFunction(10);
+        Console.WriteLine(result);
+    }
+}
+{% endhighlight %}
+
 ### LINQ
 
 ### Expression Trees
